@@ -33,15 +33,11 @@
     $rack->setName($name);
     $rack->setPrice($price+($price*(15/100)));
     $rack->setDiscount($discount);
-    // $rack->setArtist($musicArtist);
-    // $rack->setGenre($musicGenre);
     $rack->setCapacity(100);
     $rack->setModel("Meja");
     $rackName = $rack->getName();
     $rackPrice = $rack->getPrice();
     $rackDiscount = $rack->getDiscount();
-    // $rackArtist = $rack->getArtist();
-    // $rackGenre = $rack->getGenre();
     $rackCapacity = $rack->getCapacity();
     $rackModel = $rack->getModel();
     $rackPriceDiscount = $rackPrice-($rackPrice*($rackDiscount/100));
